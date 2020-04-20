@@ -1,10 +1,8 @@
 from pynput.mouse import Button, Controller
-from PIL import ImageGrab, Image
 import cv2
 import time
 import numpy as np
 from mss import mss
-import pyautogui as auto
 
 
 def press(tile):
